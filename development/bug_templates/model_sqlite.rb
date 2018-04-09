@@ -68,6 +68,8 @@ RSpec.describe 'Model' do
   let(:author_repository) { AuthorRepository.new }
   let(:book_repository) { BookRepository.new }
 
+  after(:all) { FileUtils.rm('./hanami_model_template.db') }
+
   subject { author_repository.create(name: "Leo Tolstoy") }
 
   it { expect { subject }.to change { author_repository.all.count }.by(1) }
