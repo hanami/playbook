@@ -9,5 +9,5 @@ The hanami playbook is the central repository for how we run the organisation. A
   * Handbook Usage
   * Communication
   * Anti-Harassment Policy
-  * Code of Conduct
+  * [Code of Conduct](https://github.com/hanami/playbook/blob/master/general/code-of-conduct.md)
   * Using Git to update this website
